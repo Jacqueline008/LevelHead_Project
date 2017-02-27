@@ -1,0 +1,55 @@
+@charset "utf-8";
+/********************************************************************/
+#rules_container{
+	width:900px;
+	height:1000px;
+	background-color:#FDFDFD;
+	margin:0 auto;
+	position:relative;
+	top:130px;
+	box-shadow: -10px 10px 10px #CCCCCC;
+	border-radius:5px;
+	font-family:'微软雅黑';
+}
+#rules_container h1{
+	margin:0;
+	font-size:23px;
+	text-align:center;
+	padding-top:40px;
+	margin-bottom:50px;
+}
+#rules_container h5{
+	color:black;
+	font-size:16px;
+	padding-left:40px;
+	padding-right:40px;
+}
+#rules_container p{
+	color:#666;
+	font-size:15px;
+	padding-left:40px;
+	padding-right:40px;
+}
+#rules_container a{
+	display: block;
+	width:150px;
+	margin:0 auto;
+	margin-left: 710px;
+	font-size: 17px;
+	text-decoration: none;
+}
+#rules_container a:link{
+	color:#547abb;
+}
+#rules_container a:visited{
+	color:#547abb;
+}
+#rules_container a:hover{
+	color:#000000;
+}
+/*****************************************************************/
+#footer{
+	position:relative;
+	top:200px;
+}
+

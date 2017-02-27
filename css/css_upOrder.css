@@ -1,0 +1,73 @@
+@charset "utf-8";
+/********************************************************************/
+/*upOrder_container begin*/
+#upOrder_container{
+    width:900px;
+    height:500px;
+    background-color:#FDFDFD;
+    margin:0 auto;
+    position:relative;
+    top:130px;
+    box-shadow: -10px 10px 10px #CCCCCC;
+    border-radius:5px;
+    font-family:'微软雅黑';
+}
+/*展示订单区域*/
+#showOrderArea{
+    width:880px;
+    margin:0 auto;
+    padding-top: 50px;
+}
+#showOrderArea table{
+    margin: 0 auto;
+}
+#showOrderArea table th{
+    border-top:1px dashed grey;
+    border-bottom:1px dashed grey;
+}
+#showOrderArea table td{
+    text-align: center;
+    width:155px;
+}
+#showOrderArea table td img{
+    width:155px;
+    height: 130px;
+}
+/*展示该用户收货地址区域*/
+#showUserAddrArea{
+    width:350px;
+    height:120px;
+    border:2px solid #ef7662;
+    position: relative;
+    left:480px;
+    top:50px;
+    padding-left: 40px;
+    padding-top: 0px;
+}
+#showUserAddrArea p{
+    font-size:15px;
+}
+/*立即支付按钮*/
+#buynow{
+    border:none;
+    background-color:#ef7662;
+    position:relative;
+    left:695px;
+    top:50px;
+    width:180px;
+    height:45px;
+    font-family:'微软雅黑';
+    color:white;
+    font-size:18px;
+    transition:background-color 0.4s ease,color 0.4s ease,border 0.4s ease;
+}
+#buynow:hover{
+    background-color:#ededed;
+    color:black;
+}
+/*upOrder_container end*/
+/*****************************************************************/
+#footer{
+    position:relative;
+    top:200px;
+}

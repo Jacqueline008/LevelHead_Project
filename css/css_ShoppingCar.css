@@ -1,0 +1,78 @@
+@charset "utf-8";
+/**********************************************************************************/
+/*ShoppingCarContainer begin*/
+#ShoppingCarContainer{
+    width:900px;
+    background-color:#FDFDFD;
+    margin:0 auto;
+    position:relative;
+    top:130px;
+    box-shadow: -10px 10px 10px #CCCCCC;
+    border-radius:5px;
+    font-family:'微软雅黑';
+}
+/*可能显示的空购物车区域 begin*/
+#emptyArea{
+    width:800px;
+    height: 400px;
+    margin: 0 auto;
+}
+#emptyAreaLeft{
+    float: left;
+    width:300px;
+    height: 400px;
+}
+#emptyAreaLeft img{
+    position: relative;
+    top:150px;
+    left:100px;
+}
+
+#emptyAreaRight{
+    float: right;
+    width:500px;
+    height:400px;
+}
+#emptyAreaRight p{
+    position: relative;
+    top:150px;
+    font-family:'微软雅黑';
+    font-size: 18px;
+}
+#emptyAreaRight a{
+    text-decoration: none;
+}
+#emptyAreaRight a:link{
+    color:#547abb;
+}
+#emptyAreaRight a:visited{
+    color:#547abb;
+}
+#emptyAreaRight a:hover{
+    color:#000000;
+}
+/*可能显示的空购物车区域 end*/
+
+/*可能显示的购物车区域 begin*/
+#showShoppingCarArea table{
+    margin: 0 auto;
+}
+#showShoppingCarArea table th{
+    border-top:1px dashed grey;
+    border-bottom:1px dashed grey;
+}
+#showShoppingCarArea table td{
+    text-align: center;
+    width:155px;
+}
+#showShoppingCarArea table td img{
+    width:155px;
+    height: 130px;
+}
+/*可能显示的购物车区域 end*/
+/*ShoppingCarContainer begin*/
+/*****************************************************************/
+#footer{
+    position:relative;
+    top:200px;
+}

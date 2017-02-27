@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*****************************************************************/
+/*userOrderInfo_container begin*/
+#userOrderInfo_container{
+    width:900px;
+    background-color:#FDFDFD;
+    margin:0 auto;
+    position:relative;
+    top:130px;
+    box-shadow: -10px 10px 10px #CCCCCC;
+    border-radius:5px;
+    font-family:'微软雅黑';
+    padding-top: 50px;
+}
+#userOrderInfo_container table{
+    margin: 0 auto;
+}
+#userOrderInfo_container table th{
+    border-top:1px dashed grey;
+    border-bottom:1px dashed grey;
+}
+#userOrderInfo_container table td{
+    text-align: center;
+    width:155px;
+}
+#userOrderInfo_container table td img{
+    width:155px;
+    height: 130px;
+}
+/*userOrderInfo_container end*/
+/*****************************************************************/
+#footer{
+    position:relative;
+    top:200px;
+}
+

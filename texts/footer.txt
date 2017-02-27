@@ -1,0 +1,7 @@
+<div id="footer">
+    	<div id="footer_container">
+    		<p>地址：青岛大学</p>
+   			<p>版权：Copyright &copy;2000-2016 李艺鸣 洪睿 穆思宇 All Rights Reserved. </p>
+   			<p>备案：鲁 ICP 备案 05001947 号 - 1</p>
+    	</div>
+</div>

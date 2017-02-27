@@ -1,0 +1,29 @@
+<div id="header">
+    	<div id="container">
+        	<a id="logo" href="#"><b><i>LevelHead</i></b></a>
+            <a id="shoppingcar" href="#"
+            onMouseOver="head_shopcar_changepic()"
+            onMouseOut="head_shopcar_changepic2()"><img src="images/car.png"
+            width="45px" height="40px"></a>
+            <a id="register" href="Login.php" target="_blank">登录</a>
+            <a id="home_link" href="Home.php" target="_blank">首页</a>
+            <form id="uSearchForm" name="uSearchForm"
+            onSubmit="uSearchFormFun();">
+            	<input id="uSearchContent" name="uSearchContent"
+                list="product_list" placeholder="请输入您想要的商品">
+        		<datalist id="product_list">
+        			<option value="电视">
+            		<option value="空调">
+            		<option value="冰箱">
+                    <option value="洗衣机">
+                    <option value="热水器">
+                    <option value="厨房大电">
+        		</datalist>
+           	    <button type="submit" onMouseOver="head_submit_changepic()"
+                onMouseOut="head_submit_changepic2()">
+                <img src="images/search.png" width="23px"
+                 height="23px">
+                </button>
+            </form>
+        </div>
+</div>

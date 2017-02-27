@@ -1,0 +1,347 @@
+@charset "utf-8";
+/***************************************************************************/
+/*综合，月销量，人气，价格切换按钮*/
+#toggle_buttons{
+	position:relative;
+	top:670px;
+	width:1000px;
+	height:50px;
+	margin:0 auto;
+}
+#toggle_buttons input{
+	width:150px;
+	height:50px;
+	background-image:url(../images/bg.jpg);
+	border:none;
+	border-right:1px dashed grey;
+	font-family:'微软雅黑';
+	font-size:18px;
+	outline:none;
+	transition:color 0.4s ease;
+}
+#toggle_buttons input:hover{
+	color:#547abb;
+}
+/****************************************************************************/
+/*综合排行展示区*/
+#rank_zonghe_erea1,
+#rank_zonghe_erea2,
+#rank_zonghe_erea3,
+#rank_zonghe_erea4{
+	position:relative;
+	top:700px;
+	margin:0 auto;
+	padding-top:20px;
+	background-color:white;
+	width:1000px;
+	box-shadow:-5px 5px 10px #ededed;
+}
+#rank_zonghe_erea1 #rank_zonghe td,
+#rank_zonghe_erea2 #rank_zonghe td,
+#rank_zonghe_erea3 #rank_zonghe td,
+#rank_zonghe_erea4 #rank_zonghe td{
+	text-align:center;
+	font-family:'微软雅黑';
+}
+#rank_zonghe_erea1 #rank_zonghe img,
+#rank_zonghe_erea2 #rank_zonghe img,
+#rank_zonghe_erea3 #rank_zonghe img,
+#rank_zonghe_erea4 #rank_zonghe img{
+	width:240px;
+	height:250px;
+}
+#rank_zonghe_erea1 #rank_zonghe .zonghe_td2,
+#rank_zonghe_erea2 #rank_zonghe .zonghe_td2,
+#rank_zonghe_erea3 #rank_zonghe .zonghe_td2,
+#rank_zonghe_erea4 #rank_zonghe .zonghe_td2{
+	width:400px;
+	padding-left:50px;
+	padding-right:50px;
+}
+#rank_zonghe_erea1 #rank_zonghe .zonghe_td2 a,
+#rank_zonghe_erea2 #rank_zonghe .zonghe_td2 a,
+#rank_zonghe_erea3 #rank_zonghe .zonghe_td2 a,
+#rank_zonghe_erea4 #rank_zonghe .zonghe_td2 a{
+	text-decoration:none;
+	color:#666;
+	transition:color 0.4s ease;
+}
+#rank_zonghe_erea1 #rank_zonghe .zonghe_td2 a:hover,
+#rank_zonghe_erea2 #rank_zonghe .zonghe_td2 a:hover,
+#rank_zonghe_erea3 #rank_zonghe .zonghe_td2 a:hover,
+#rank_zonghe_erea4 #rank_zonghe .zonghe_td2 a:hover{
+	color:#547abb;
+}
+#rank_zonghe_erea1 #rank_zonghe .zonghe_td3,
+#rank_zonghe_erea2 #rank_zonghe .zonghe_td3,
+#rank_zonghe_erea3 #rank_zonghe .zonghe_td3,
+#rank_zonghe_erea4 #rank_zonghe .zonghe_td3{
+	width:100px;
+	padding-left:50px;
+	padding-right:50px;
+	color:#547abb;
+	font-size:18px;
+}
+#rank_zonghe_erea1 #rank_zonghe .zonghe_td4,
+#rank_zonghe_erea2 #rank_zonghe .zonghe_td4,
+#rank_zonghe_erea3 #rank_zonghe .zonghe_td4,
+#rank_zonghe_erea4 #rank_zonghe .zonghe_td4{
+	width:100px;
+	padding-right:50px;
+	color:#ef7662;
+	font-size:18px;
+}
+#rank_zonghe_erea1{
+	display:block;
+}
+#rank_zonghe_erea2{
+	display:none;
+}
+#rank_zonghe_erea3{
+	display:none;
+}
+#rank_zonghe_erea4{
+	display:none;
+}
+/*与综合展示区相对应的第几页按钮*/
+#rank_zonghe_ereas_show{
+	width:600px;
+	position:relative;
+	top:750px;
+	margin:0 auto;
+	display:block;
+}
+#rank_zonghe_ereas_show input{
+	background-color:pink;
+	width:70px;
+	height:35px;
+	border:none;
+	font-family:'微软雅黑';
+	font-size:16px;
+	color:#666;
+	border-radius:5px;
+	background-color:#FDFDFD;
+	margin-left:20px;
+	transition:background-color 0.4s ease;
+	outline:none;
+}
+#rank_zonghe_ereas_show input:hover{
+	background-color:#ededed;
+}
+/**************************************************************************/
+/*月销量展示区*/
+#rank_monthcount_erea1,
+#rank_monthcount_erea2,
+#rank_monthcount_erea3,
+#rank_monthcount_erea4{
+	position:relative;
+	top:700px;
+	margin:0 auto;
+	padding-top:20px;
+	background-color:white;
+	width:1000px;
+	box-shadow:-5px 5px 10px #ededed;
+}
+#rank_monthcount_erea1 #rank_monthcount td,
+#rank_monthcount_erea2 #rank_monthcount td,
+#rank_monthcount_erea3 #rank_monthcount td,
+#rank_monthcount_erea4 #rank_monthcount td{
+	text-align:center;
+	font-family:'微软雅黑';
+}
+#rank_monthcount_erea1 #rank_monthcount img,
+#rank_monthcount_erea2 #rank_monthcount img,
+#rank_monthcount_erea3 #rank_monthcount img,
+#rank_monthcount_erea4 #rank_monthcount img{
+	width:240px;
+	height:250px;
+}
+#rank_monthcount_erea1 #rank_monthcount .monthcount_td2,
+#rank_monthcount_erea2 #rank_monthcount .monthcount_td2,
+#rank_monthcount_erea3 #rank_monthcount .monthcount_td2,
+#rank_monthcount_erea4 #rank_monthcount .monthcount_td2{
+	width:400px;
+	padding-left:50px;
+	padding-right:50px;
+}
+#rank_monthcount_erea1 #rank_monthcount .monthcount_td2 a,
+#rank_monthcount_erea2 #rank_monthcount .monthcount_td2 a,
+#rank_monthcount_erea3 #rank_monthcount .monthcount_td2 a,
+#rank_monthcount_erea4 #rank_monthcount .monthcount_td2 a{
+	text-decoration:none;
+	color:#666;
+	transition:color 0.4s ease;
+}
+#rank_monthcount_erea1 #rank_monthcount .monthcount_td2 a:hover,
+#rank_monthcount_erea2 #rank_monthcount .monthcount_td2 a:hover,
+#rank_monthcount_erea3 #rank_monthcount .monthcount_td2 a:hover,
+#rank_monthcount_erea4 #rank_monthcount .monthcount_td2 a:hover{
+	color:#547abb;
+}
+#rank_monthcount_erea1 #rank_monthcount .monthcount_td3,
+#rank_monthcount_erea2 #rank_monthcount .monthcount_td3,
+#rank_monthcount_erea3 #rank_monthcount .monthcount_td3,
+#rank_monthcount_erea4 #rank_monthcount .monthcount_td3{
+	width:100px;
+	padding-left:50px;
+	padding-right:50px;
+	color:#547abb;
+	font-size:18px;
+}
+#rank_monthcount_erea1 #rank_monthcount .monthcount_td4,
+#rank_monthcount_erea2 #rank_monthcount .monthcount_td4,
+#rank_monthcount_erea3 #rank_monthcount .monthcount_td4,
+#rank_monthcount_erea4 #rank_monthcount .monthcount_td4{
+	width:100px;
+	padding-right:50px;
+	color:#ef7662;
+	font-size:18px;
+}
+#rank_monthcount_erea1{
+	display:none;
+}
+#rank_monthcount_erea2{
+	display:none;
+}
+#rank_monthcount_erea3{
+	display:none;
+}
+#rank_monthcount_erea4{
+	display:none;
+}
+/*与月销量展示区相对应的第几页按钮*/
+#rank_monthcount_ereas_show{
+	width:600px;
+	position:relative;
+	top:750px;
+	margin:0 auto;
+	display:none;
+}
+#rank_monthcount_ereas_show input{
+	background-color:pink;
+	width:70px;
+	height:35px;
+	border:none;
+	font-family:'微软雅黑';
+	font-size:16px;
+	color:#666;
+	border-radius:5px;
+	background-color:#FDFDFD;
+	margin-left:20px;
+	transition:background-color 0.4s ease;
+	outline:none;
+}
+#rank_monthcount_ereas_show input:hover{
+	background-color:#ededed;
+}
+/***************************************************************************/
+/*价格排行展示区*/
+#rank_price_erea1,
+#rank_price_erea2,
+#rank_price_erea3,
+#rank_price_erea4{
+	position:relative;
+	top:700px;
+	margin:0 auto;
+	padding-top:20px;
+	background-color:white;
+	width:1000px;
+	box-shadow:-5px 5px 10px #ededed;
+}
+#rank_price_erea1 #rank_price td,
+#rank_price_erea2 #rank_price td,
+#rank_price_erea3 #rank_price td,
+#rank_price_erea4 #rank_price td{
+	text-align:center;
+	font-family:'微软雅黑';
+}
+#rank_price_erea1 #rank_price img,
+#rank_price_erea2 #rank_price img,
+#rank_price_erea3 #rank_price img,
+#rank_price_erea4 #rank_price img{
+	width:240px;
+	height:250px;
+}
+#rank_price_erea1 #rank_price .price_td2,
+#rank_price_erea2 #rank_price .price_td2,
+#rank_price_erea3 #rank_price .price_td2,
+#rank_price_erea4 #rank_price .price_td2{
+	width:400px;
+	padding-left:50px;
+	padding-right:50px;
+}
+#rank_price_erea1 #rank_price .price_td2 a,
+#rank_price_erea2 #rank_price .price_td2 a,
+#rank_price_erea3 #rank_price .price_td2 a,
+#rank_price_erea4 #rank_price .price_td2 a{
+	text-decoration:none;
+	color:#666;
+	transition:color 0.4s ease;
+}
+#rank_price_erea1 #rank_price .price_td2 a:hover,
+#rank_price_erea2 #rank_price .price_td2 a:hover,
+#rank_price_erea3 #rank_price .price_td2 a:hover,
+#rank_price_erea4 #rank_price .price_td2 a:hover{
+	color:#547abb;
+}
+#rank_price_erea1 #rank_price .price_td3,
+#rank_price_erea2 #rank_price .price_td3,
+#rank_price_erea3 #rank_price .price_td3,
+#rank_price_erea4 #rank_price .price_td3{
+	width:100px;
+	padding-left:50px;
+	padding-right:50px;
+	color:#547abb;
+	font-size:18px;
+}
+#rank_price_erea1 #rank_price .price_td4,
+#rank_price_erea2 #rank_price .price_td4,
+#rank_price_erea3 #rank_price .price_td4,
+#rank_price_erea4 #rank_price .price_td4{
+	width:100px;
+	padding-right:50px;
+	color:#ef7662;
+	font-size:18px;
+}
+#rank_price_erea1{
+	display:none;
+}
+#rank_price_erea2{
+	display:none;
+}
+#rank_price_erea3{
+	display:none;
+}
+#rank_price_erea4{
+	display:none;
+}
+/*与价格展示区相对应的第几页按钮*/
+#rank_price_ereas_show{
+	width:600px;
+	position:relative;
+	top:750px;
+	margin:0 auto;
+	display:none;
+}
+#rank_price_ereas_show input{
+	background-color:pink;
+	width:70px;
+	height:35px;
+	border:none;
+	font-family:'微软雅黑';
+	font-size:16px;
+	color:#666;
+	border-radius:5px;
+	background-color:#FDFDFD;
+	margin-left:20px;
+	transition:background-color 0.4s ease;
+	outline:none;
+}
+#rank_price_ereas_show input:hover{
+	background-color:#ededed;
+}
+/*************************************************************************/
+#footer{
+	position:relative;
+	top:800px;
+}

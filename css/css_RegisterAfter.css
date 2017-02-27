@@ -1,0 +1,171 @@
+@charset "utf-8";
+/************************************************************************/
+/*注册成功 begin*/
+#registerAfterSuccess_container{
+    width:900px;
+    height:450px;
+    background-color:#FDFDFD;
+    margin:0 auto;
+    position:relative;
+    top:120px;
+    box-shadow: -10px 10px 10px #CCCCCC;
+    border-radius:5px;
+}
+
+/*注册成功时 上部分*/
+#success_up{
+    width:700px;
+    height:80px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+/*注册成功时 上部分中图片*/
+#success_up #pic{
+    float: left;
+    width:80px;
+    height:80px;
+    background-image:url(../images/success.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+}
+/*注册成功时 上部分文字*/
+#success_up #text{
+    float: left;
+    width: 600px;
+    height:80px;
+}
+/*注册成功时 上部分文字段落1*/
+#text #pUP{
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+}
+/*注册成功时 上部分文字段落2*/
+#text #pDOWN{
+    font-family:'微软雅黑';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+}
+/*注册成功时 上部分文字段落2里的超链接*/
+#text #pDOWN a{
+    text-decoration: none;
+}
+#text #pDOWN a:hover{
+    color:#547abb;
+}
+#text #pDOWN a:visited{
+    color:#547abb;
+}
+#text #pDOWN a:link{
+    color:#547abb;
+}
+
+/*注册成功下部分*/
+#success_down{
+    width:600px;
+    height:150px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+#success_down #picleft{
+    width:270px;
+    height:150px;
+    float: left;
+    background-image:url(../images/registerAfterNewer1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+}
+#success_down #picright{
+    width:270px;
+    height:150px;
+    float: right;
+    background-image:url(../images/registerAfterNewer2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+}
+/*注册成功 end*/
+
+/*注册失败 begin*/
+/*注册失败container*/
+#registerAfterFail_container{
+    width:900px;
+    height:450px;
+    background-color:#FDFDFD;
+    margin:0 auto;
+    position:relative;
+    top:120px;
+    box-shadow: -10px 10px 10px #CCCCCC;
+    border-radius:5px;
+}
+/*注册失败内容*/
+#fail{
+    width:500px;
+    height:80px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+/*注册失败内容左侧*/
+#fail_left{
+    float: left;
+    width:80px;
+    height:80px;
+    background-image:url(../images/fail.PNG);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+}
+/*注册失败内容右侧*/
+#fail_right{
+    float: right;
+    width:420px;
+    height:80px;
+}
+#fail_right_up{
+    margin: 0px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    font-size: 33px;
+    letter-spacing: 7px;
+    font-weight: 600;
+    text-align: center;
+}
+#fail_right_down{
+    margin: 0px;
+    padding-top: 15px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    font-size: 18px;
+    color: #ef7662;
+    font-weight: 400;
+    text-align: center;
+}
+#fail_right_down a{
+    text-decoration: none;
+    padding-left: 10px;
+    font-weight: 400;
+}
+#fail_right_down a:link{
+    color:#547abb;
+}
+#fail_right_down a:visited{
+    color:#547abb;
+}
+#fail_right_down a:hover{
+    color:black;
+}
+/*注册失败 end*/
+
+/************************************************************************/
+#footer{
+    position:relative;
+    top:200px;
+}

@@ -1,0 +1,431 @@
+@charset "utf-8";
+/**************************************************************************/
+/*热门品牌列表*/
+#menu_brands{
+	width:100%;
+	height:550px;
+	background-color:white;
+	position:relative;
+	top:630px;
+	background-color:#ededed;
+}
+#brands_container{
+	width:1000px;
+	height:550px;
+	margin:0 auto;
+}
+#brands_container h1{
+	margin:0;
+	margin-bottom:10px;
+	text-align:center;
+	font-family:'微软雅黑';
+	font-weight:400;
+	padding-top:30px;
+	letter-spacing:5pt;
+	font-size:27px;
+}
+/*用table来盛装各种品牌*/
+#brands_container table{
+	width:100%;
+	height:450px;
+}
+#brands_container table td{
+	width:217px;
+	height:224px;
+}
+/*sumsung*/
+#brands_container table #sumsung a{
+	display:block;
+	width:130px;
+	height:130px;
+	border-radius:65px;
+	background-color:white;
+	margin:0 auto;
+	background-image:url(../images/sumsung.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+#brands_container table #sumsung a div{
+	width:100%;
+	height:100%;
+	background-color:black;
+	border-radius:70px;
+	opacity:0.2;
+	display:none;
+}
+/*sony*/
+#brands_container table #sony a{
+	display:block;
+	width:130px;
+	height:130px;
+	border-radius:65px;
+	background-color:white;
+	margin:0 auto;
+	background-image:url(../images/sony.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+#brands_container table #sony a div{
+	width:100%;
+	height:100%;
+	background-color:black;
+	border-radius:70px;
+	opacity:0.2;
+	display:none;
+}
+/*haier*/
+#brands_container table #haier a{
+	display:block;
+	width:130px;
+	height:130px;
+	border-radius:65px;
+	background-color:white;
+	margin:0 auto;
+	background-image:url(../images/haier.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+#brands_container table #haier a div{
+	width:100%;
+	height:100%;
+	background-color:black;
+	border-radius:70px;
+	opacity:0.2;
+	display:none;
+}
+/*philips*/
+#brands_container table #philips a{
+	display:block;
+	width:130px;
+	height:130px;
+	border-radius:65px;
+	background-color:white;
+	margin:0 auto;
+	background-image:url(../images/philips.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+#brands_container table #philips a div{
+	width:100%;
+	height:100%;
+	background-color:black;
+	border-radius:70px;
+	opacity:0.2;
+	display:none;
+}
+/*haixin*/
+#brands_container table #haixin a{
+	display:block;
+	width:130px;
+	height:130px;
+	border-radius:65px;
+	background-color:white;
+	margin:0 auto;
+	background-image:url(../images/haixin.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+#brands_container table #haixin a div{
+	width:100%;
+	height:100%;
+	background-color:black;
+	border-radius:70px;
+	opacity:0.2;
+	display:none;
+}
+/*kangjia*/
+#brands_container table #kangjia a{
+	display:block;
+	width:130px;
+	height:130px;
+	border-radius:65px;
+	background-color:white;
+	margin:0 auto;
+	background-image:url(../images/kangjia.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+#brands_container table #kangjia a div{
+	width:100%;
+	height:100%;
+	background-color:black;
+	border-radius:75px;
+	opacity:0.2;
+	display:none;
+}
+/*chuangwei*/
+#brands_container table #chuangwei a{
+	display:block;
+	width:130px;
+	height:130px;
+	border-radius:65px;
+	background-color:white;
+	margin:0 auto;
+	background-image:url(../images/chuangwei.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+#brands_container table #chuangwei a div{
+	width:100%;
+	height:100%;
+	background-color:black;
+	border-radius:70px;
+	opacity:0.2;
+	display:none;
+}
+/*tcl*/
+#brands_container table #tcl a{
+	display:block;
+	width:130px;
+	height:130px;
+	border-radius:65px;
+	background-color:white;
+	margin:0 auto;
+	background-image:url(../images/tcl.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+#brands_container table #tcl a div{
+	width:100%;
+	height:100%;
+	background-color:black;
+	border-radius:70px;
+	opacity:0.2;
+	display:none;
+}
+/*lg*/
+#brands_container table #lg a{
+	display:block;
+	width:130px;
+	height:130px;
+	border-radius:65px;
+	background-color:white;
+	margin:0 auto;
+	background-image:url(../images/lg.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+#brands_container table #lg a div{
+	width:100%;
+	height:100%;
+	background-color:black;
+	border-radius:70px;
+	opacity:0.2;
+	display:none;
+}
+/*changhong*/
+#brands_container table #changhong a{
+	display:block;
+	width:130px;
+	height:130px;
+	border-radius:65px;
+	background-color:white;
+	margin:0 auto;
+	background-image:url(../images/changhong.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+#brands_container table #changhong a div{
+	width:100%;
+	height:100%;
+	background-color:black;
+	border-radius:70px;
+	opacity:0.2;
+	display:none;
+}
+/********************************************************************************/
+/*用户搜索感兴趣的产品区域 begin*/
+#showLikeProduct{
+	width:950px;
+	height: 70px;
+	margin: 0 auto;
+	position: relative;
+	top:700px;
+}
+/*提交表单*/
+#showLikeProductForm{
+	width:700px;
+	height: 40px;
+	margin: 0 auto;
+}
+/*输入框*/
+#userLikeProductInfo{
+	width:550px;
+	height: 40px;
+	line-height: 40px;
+	font-family:'微软雅黑';
+	font-weight:400;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+/*提交按钮*/
+#userLikeProductSubmit{
+	width:130px;
+	height: 45px;
+	position: relative;
+	left: -8px;
+	border:none;
+	background-color:#547abb;
+	color:white;
+	font-family:'微软雅黑';
+	font-size: 16px;
+	transition:background-color 0.4s ease;
+}
+#userLikeProductSubmit:hover{
+	background-color:cadetblue;
+}
+/*用户搜索感兴趣的产品区域 end*/
+
+/* 可能会展示的用户感兴趣产品区域 begin*/
+#showLikeProductArea{
+	width:950px;
+	margin: 0 auto;
+	position: relative;
+	top:730px;
+	background-color: white;
+}
+#showLikeProductArea table{
+	margin: 0 auto;
+}
+#showLikeProductArea table th{
+	border-top:1px dashed grey;
+	border-bottom:1px dashed grey;
+}
+#showLikeProductArea table td{
+	text-align: center;
+	width:155px;
+}
+#showLikeProductArea table td img{
+	width:155px;
+	height: 130px;
+}
+/*暂时没有该产品信息*/
+#noProductFound{
+	width:700px;
+	margin: 0 auto;
+	position: relative;
+	top:730px;
+	text-align: center;
+	color: #ef7662;
+	font-family:'微软雅黑';
+	font-size: 18px;
+}
+/* 可能会展示的用户感兴趣产品区域 end*/
+/***************************************************************************/
+/*品牌列表下的所有商品展示 begin */
+/*显示所有产品 begin */
+#showAllProduct{
+	width:950px;
+	margin: 0 auto;
+	position: relative;
+	top:800px;
+	background-color: #FDFDFD;
+}
+#showAllProduct table{
+	margin: 0 auto;
+}
+#showAllProduct table th{
+	border-top:1px dashed grey;
+	border-bottom:1px dashed grey;
+}
+#showAllProduct table td{
+	text-align: center;
+	width:155px;
+}
+#showAllProduct table td img{
+	width:155px;
+	height: 130px;
+}
+/*显示所有产品 end*/
+
+/*button_container  begin*/
+#button_container{
+	width:450px;
+	height: 35px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	position: relative;
+	top:820px;
+}
+/*上一页按钮*/
+#toLast{
+	width:70px;
+	height:35px;
+	border:none;
+	font-family:'微软雅黑';
+	font-size:16px;
+	color:#666;
+	border-radius:5px;
+	background-color:#ededed;
+	transition:background-color 0.4s ease;
+	outline:none;
+	float: left;
+}
+#toLast:hover{
+	background-color:#FDFDFD;
+}
+/*下一页按钮*/
+#toNext{
+	width:70px;
+	height:35px;
+	border:none;
+	font-family:'微软雅黑';
+	font-size:16px;
+	color:#666;
+	border-radius:5px;
+	background-color:#ededed;
+	transition:background-color 0.4s ease;
+	outline:none;
+	float: right;
+}
+#toNext:hover{
+	background-color:#FDFDFD;
+}
+/*button_container  end*/
+/*品牌列表下的所有商品展示 end */
+
+
+/*整个网页的锚点区 begin*/
+#toPosition{
+	position: fixed;
+	top:200px;
+
+}
+#toPosition a{
+	display: block;
+	width:100px;
+	height: 40px;
+	text-decoration: none;
+	border: 1px grey solid;
+	text-align: center;
+	line-height: 40px;
+}
+#toPosition a:link{
+	color: dimgrey;
+}
+#toPosition a:visited{
+	color: dimgrey;
+}
+#toPosition a:hover{
+	background-color: lightgrey;
+	color:black;
+}
+/*整个网页的锚点区 end*/
+/*************************************************************************/
+#footer{
+	position:relative;
+	top:850px;
+}
+
+
